@@ -1,0 +1,546 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
+body{
+  background-image:url(img/download.jpg);
+}
+
+.logo{
+  display:inline;
+  background-color:#C02C2E;
+  border-radius:50px;
+  padding:5px;
+  
+}
+.name{
+  display:inline;
+  color:yellow;
+  font-family: 'Lakki Reddy', cursive;
+  text-decoration: none;
+}
+Link{
+  text-decoration:none;
+}
+
+.form{
+  display:inline;
+  position:relative;
+  margin-right:50px;
+    
+}
+.first{
+  display:inline;
+}
+.hello{
+  display:inline;
+  padding:5px;
+  list-style-type:none;
+  
+  
+  
+  
+}
+
+.link{
+  color:white;
+  text-decoration:none;
+  font-size:25px;
+  font-family: 'Permanent Marker', cursive;
+  
+  padding:6px;
+}
+nav{
+  background-color:black;
+  height:120px;
+}
+footer{
+  background-color:grey;
+  text-align: center;
+  font-size: 4vh;
+  font-family: monospace;
+}
+.cat{
+  font-size:24px;
+  text-decoration:underline;
+  color:white;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.bar{
+  text-decoration:none;
+  color:#FB5D00;
+  display:list-item;
+  list-style-type:none;
+  font-family: 'Courier Prime', monospace;
+  
+
+  font-size:22px;
+}
+.h{
+  clear:both;
+}
+.sidenav{
+  background-color:black;
+  
+  margin-right:80px;
+  
+}
+.container{
+    display:flex;
+}
+.mar
+{
+  margin-left:60px;
+  height:250px;
+  width:250px;
+  
+}
+.last{
+  font-size:40px;
+  font-family: 'Girassol', cursive;
+  
+  text-decoration:underline;
+}
+#color{
+  background-color:#07F80C;
+  border-radius:10px;
+  
+}
+.term{
+  text-decoration:underline;
+  font-family: 'Oswald', sans-serif;
+  
+}
+.t{
+  font-size:18px;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  color:white;
+}
+.f{
+  font-size:20px;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  
+}
+.main{
+  display:flex;
+  flex-wrap:wrap;
+  background-image:url(img/download.jpg); 
+  
+}
+.w{
+  border:3px solid black;
+  padding:20px;
+  margin:10px;
+  margin-left:60px;
+  background-image:url(img/download.jpg); 
+}
+.oc{
+  border:3px solid black;
+  padding:20px;
+  margin:10px;
+  margin-left:60px;
+  background-image:url(img/download.jpg); 
+}
+
+
+.outer{
+  font-size:25px;
+  font-family: 'Oleo Script', cursive;
+  border:2px solid black;
+  padding:10px;
+  margin:10px;
+  margin-left:40px;
+}
+.r{
+  display:flex;
+  flex-wrap:wrap;
+  
+  
+}
+.c{
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size:20px;
+}
+.physco
+{
+  background-color:grey;
+}
+.con{
+  font-family: 'Yeseva One', cursive;
+  display:inline;
+  position:relative;
+  font-size:25px;
+  
+  
+}
+.add{
+  border:3px solid black;
+  margin-right:950px;
+  margin-left:350px;
+  width:600px;
+  background-image:url(/img/download.jpg);
+  
+}
+#one{
+  font-size:24px;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.end{
+  font-family: 'Yeseva One', cursive;
+  display:inline;
+  position:relative;
+  font-size:25px;
+  text-decoration:underline;
+}
+
+figcaption{
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size:30px;
+}
+
+textarea{
+  width:450px;
+  height:150px;
+  
+}
+@media screen and (max-width : 1000px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    width:200px;
+    margin-left:10px;
+  }
+  .sidenav{
+    margin-right:10px;
+}
+#color{
+  width:300px;
+}
+.oc{
+  margin-left:25px;
+  padding:30px;
+}
+.outer{
+  margin-left:60px;
+}
+.add{
+  margin-left:180px;
+}
+}
+
+
+@media screen and (max-width : 900px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    width:150px;
+    margin-left:30px;
+  }
+  .sidenav{
+    margin-right:5px;
+}
+#color{
+  width:300px;
+}
+.oc{
+  margin-left:85px;
+  
+}
+.outer{
+  margin-left:30px;
+}
+.add{
+  margin-left:120px;
+}
+.w{
+  margin-left:130px;
+}
+}
+@media screen and (max-width : 970px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    width:150px;
+    margin-left:30px;
+  }
+  .sidenav{
+    margin-right:5px;
+}
+#color{
+  width:300px;
+}
+.oc{
+  margin-left:85px;
+  padding:25px;
+}
+.outer{
+  margin-left:30px;
+}
+.add{
+  margin-left:120px;
+}
+.w{
+  margin-left:130px;
+}
+}
+@media screen and (max-width : 880px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    width:140px;
+    
+    margin-left:35px;
+  }
+  .sidenav{
+    margin-right:5px;
+}
+#color{
+  width:300px;
+}
+.oc{
+  margin-left:85px;
+  padding:25px;
+}
+.outer{
+  margin-left:30px;
+}
+.add{
+  margin-left:120px;
+}
+.w{
+  margin-left:130px;
+}
+}
+@media screen and (max-width : 850px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    width:150px;
+    margin-left:5px;
+  }
+  .sidenav{
+    margin-right:5px;
+}
+#color{
+  width:300px;
+  margin-left:0px;
+}
+.oc{
+  margin-left:75px;
+  padding:20px;
+}
+.outer{
+  margin-left:150px;
+}
+.add{
+  margin-left:90px;
+}
+.w{
+  margin-left:100px;
+}
+}
+@media screen and (max-width : 800px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    width:150px;
+    margin-left:5px;
+  }
+  .sidenav{
+    margin-right:5px;
+}
+#color{
+  width:300px;
+  margin-left:0px;
+}
+.oc{
+  margin-left:75px;
+  padding:20px;
+}
+.outer{
+  margin-left:150px;
+}
+.add{
+  margin-left:90px;
+}
+.w{
+  margin-left:100px;
+}
+}
+@media screen and (max-width : 750px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    width:120px;
+    margin-left:15px;
+  }
+  .sidenav{
+    margin-right:5px;
+}
+#color{
+  width:300px;
+}
+.oc{
+  margin-left:65px;
+  padding:20px;
+}
+.outer{
+  margin-left:180px;
+}
+.add{
+  margin-left:50px;
+}
+.w{
+  margin-left:80px;
+}
+}
+@media screen and (max-width : 750px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    
+    width:120px;
+    margin-left:20px;
+    position:relative;
+    display:block;
+  }
+  .sidenav{
+    margin-right:0px;
+}
+}
+@media screen and (max-width : 700px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  .mar{
+    
+    width:120px;
+    margin-left:10px;
+    position:relative;
+    display:inline-block;
+  }
+  .sidenav{
+    margin-right:0px;
+}
+#color{
+  width:300px;
+}
+.oc{
+  margin-left:45px;
+  padding:20px;
+}
+.outer{
+  margin-left:130px;
+}
+.add{
+  margin-left:30px;
+}
+.w{
+  margin-left:50px;
+}
+}
+@media screen and (max-width : 650px)
+{ 
+  .hello{
+    display:block;  
+}
+  nav{
+    height:auto;
+  }
+  
+  .mar{
+    
+    width:120px;
+    
+    margin-left:20px;
+    position:relative;
+    display:inline-block;
+  }
+  .sidenav{
+    margin-right:0px;
+}
+#color{
+  width:300px;
+}
+.oc{
+  margin-left:20px;
+  padding:10px;
+}
+.outer{
+  margin-left:130px;
+}
+.add{
+  margin-left:30px;
+  width:500px;
+}
+.w{
+  margin-left:50px;
+}
+.container{
+  display:block;
+}
+}
+@media screen and (max-width : 600px){
+  .outer{
+  margin-left:50px;
+}
+.add{
+  margin-left:0px;
+  width:450px;
+}
+textarea{
+  width:400px;
+  height:150px;
+  
+}
+}
